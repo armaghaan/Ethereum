@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    font-family: "Inter",sans-serif;
+}
+.logo{
+    width: 25px;
+}
+.text-hover-blue:hover{
+    color: #1c1cff;
+}
+.hover-blue:hover{
+    color: #1c1cff;
+}
+.hover-blue{
+    color: black;
+}
+.text-gray{
+    color: #666666;
+}
+.text-gray-light{
+    color: #b2b2b2;
+}
+.focus-gray:focus{
+    background-color: #f2f2f2;
+}
+.p-12{
+    padding: 12px;
+}
+.bg-blue{
+    background-color: #1c1cff;
+}
+.bg-white-1{
+    background-color: #fcfcfc;
+}
+.bg-white-2{
+    background-color: #f6f6f6;
+}
+.bg-white-blue{
+    background-color: #dbe6f6;
+}
+.bg-purple-light{
+    background-color:  #e8e8ff;
+}
+.bg-aqua-light-2{
+    background-color: #e1fefa;
+}
+.bg-pink-light{
+    background-color: #ffe5f9;
+}
+.bg-aqua-light{
+    background-color: #ccfcff;
+}
+.bg-orange-light{
+    background-color: #ffe3d3;
+}
+.bg-aqua{
+    background-color: #e9fbfa;
+}
+.bg-hover-gray:hover{
+    background-color: lightgray;
+}
+.bg-hover-purple:hover{
+    background-color: #d1d1ff;
+}
+.hover-gray:hover{
+    background-color: #f2f2f2;
+}
+.b-shadow{
+    transition: all .2s;
+}
+.b-shadow:hover{
+    box-shadow: 4px 4px lightgray;
+}
+.scale-hover{
+    transition: all .3s;
+}
+.scale-hover:hover,.scale-active:active{
+    box-shadow: 0 0 ;
+    transform: scale(1.03);
+}
+.img-1{
+    background: url(../assets/img/wallet.webp) no-repeat center;
+    background-color: #e9fbfa;
+    background-size: contain;
+    height: 300px;
+}
+.img-2{
+    background: url(../assets/img/eth.png) no-repeat center;
+    height: 300px;
+    background-size: contain;
+    background-color: #e9fbfa;
+    background-blend-mode: multiply;
+    height: 300px;
+}
+.img-3{
+    background: url(../assets/img/doge-computer.webp) no-repeat center;
+    background-color: #e9fbfa;
+    background-size: contain;
+    height: 300px;
+}
+.img-4{
+    background: url(../assets/img/developers-eth-blocks.webp) no-repeat center;
+    background-color: #e9fbfa; 
+    height: 300px;
+}
+.img-5{
+    background: url(../assets/img/merge.webp) no-repeat center;
+    background-color: #e9fbfa; 
+    background-size: contain;
+    height: 300px;
+}
+.img-6{
+    background: url(../assets/img/infrastructure_transparent.webp) no-repeat center;
+    background-color: #e9fbfa; 
+    background-size: contain;
+    height: 300px;
+}
+.img-7{
+    background: url(../assets/img/enterprise-eth.webp) no-repeat center;
+    background-color: #e9fbfa; 
+    background-size: contain;
+    height: 300px;
+}
+.b-shadow-purple{
+    box-shadow: 4px 4px #d2d2f9;
+}
+.fs-14{
+    font-size: 14px;
+}
+.cs-pointer{
+    cursor: pointer;
+}
+.h-300{
+    height: 300px;
+}
+.h-330{
+    height: 330px;
+}
+.h-180{
+    height: 180px;
+}
+.h-210{
+    height: 210px;
+}
+.h-230{
+    height: 230px;
+}
+.logo-helpful{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    background-color: #1c1cff;
+    color: white;
+    transition: all .1s;
+}
+.logo-helpful:hover{
+    transform: scale(1.07);
+}
